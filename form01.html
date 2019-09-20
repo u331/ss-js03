@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form01</title>
+    <style>
+        h1 {
+            margin-left: 70px;
+        }
+        form li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+
+        form ul li label{
+            float: left;
+            clear: left;
+            width: 100px;
+            text-align: right;
+            margin-right: 10px;
+            font-family:Verdana, Arial, Helvetica, sans-serif;
+            font-size:14px;
+        }
+
+        form ul li input, select, span {
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        form textarea {
+            float: left;
+            width: 350px;
+            height: 150px;
+        }
+
+        [type="submit"] {
+            clear: left;
+            margin: 20px 0 0 230px;
+            font-size:18px
+        }
+
+        p {
+            margin-left: 70px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>Registration Form</h1>
+Use tab keys to move from one input field to the next.
+<form name='registration' onSubmit="return formValidation();">
+    <ul>
+        <li><label>User id:</label></li>
+        <li><input type="text" name="userid" size="12" /></li>
+<!--        <li><label>Password:</label></li>-->
+<!--        <li><input type="password" name="passid" size="12" /></li>-->
+        <li><label>Name:</label></li>
+        <li><input type="text" name="firstName" size="50" /></li>
+        <li><label>Surname:</label></li>
+        <li><input type="text" name="secondName" size="50" /></li>
+        <li><label>Address:</label></li>
+        <li><input type="text" name="address" size="50" /></li>
+        <li><label>Country:</label></li>
+        <li><select name="country">
+            <option selected="" value="Default">(Please select a country)</option>
+            <option value="UA">Ukraine</option>
+            <option value="AU">Australia</option>
+            <option value="CA">Canada</option>
+            <option value="IN">India</option>
+            <option value="RU">Russia</option>
+            <option value="US">USA</option>
+        </select></li>
+        <li><label>ZIP Code:</label></li>
+        <li><input type="text" name="zip" /></li>
+        <li><label>Email:</label></li>
+        <li><input type="text" name="email" size="50" /></li>
+        <li><label id="gender">Sex:</label></li>
+        <li><input type="radio" name="sex" value="Male" /><span>Male</span></li>
+        <li><input type="radio" name="sex" value="Female" /><span>Female</span></li>
+        <li><label>Language:</label></li>
+        <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+        <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+        <li><label>Ocupation:</label></li>
+        <li><select name="ocupation">
+            <option selected="" value="Default">(Please select a ocupation)</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer </option>
+            <option value="manager">Manager</option>
+        </select></li>
+        <li><label>Salary:</label></li>
+        <li><input type="text" name="salary" size="50" /></li>
+        <li><label>Experiance:</label></li>
+        <li><select name="experiance">
+            <option selected="" value="Default">(Please select the years of experiance)</option>
+            <option value="0"><1</option>
+            <option value="1">1</option>
+            <option value="2">2 </option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 </option>
+            <option value="6">>5</option>
+        </select></li>
+        <li><label><!--Designer effectivness -->coefficient(0-1):</label></li>
+        <li><input type="text" name="coefficient" size="50" /></li>
+        <li><label>Manager:</label></li>
+        <li><select name="manager">
+            <option selected="" value="Default">(Please select the manager)</option>
+            <option value="3">Ivan Ivanov</option>
+            <option value="5">John Travolta</option>
+            <option value="7">Angus Young</option>
+        </select></li>
+        <li><label>About:</label></li>
+        <li><textarea name="desc" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+    </ul>
+</form>
+</body>
+</html>

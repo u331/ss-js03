@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test01</title>
+</head>
+<body>
+<button onclick="loadPhones()">Загрузить phones.json!</button>
+<button onclick="loadPut()">loadPut</button>
+<button onclick="loadDelete()">loadDelete</button>
+
+<script>
+    function loadPhones() {
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', 'phones.json', false);
+        xhr.send();
+
+        if (xhr.status != 200) {
+            // обработать ошибку
+            alert('Ошибка ' + xhr.status + ': ' + xhr.statusText);
+        } else {
+            // вывести результат
+            alert(xhr.responseText);
+        }
+    }
+    function loadPut() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('PUT', '/', false);
+        xhr.send();
+        if (xhr.status != 200) {
+            // обработать ошибку
+            alert('Ошибка ' + xhr.status + ': ' + xhr.statusText);
+        } else {
+            // вывести результат
+            alert(xhr.responseText);
+        }
+    }
+    function loadDelete() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('DELETE', '/', false);
+        xhr.send();
+        if (xhr.status != 200) {
+            // обработать ошибку
+            alert('Ошибка ' + xhr.status + ': ' + xhr.statusText);
+        } else {
+            // вывести результат
+            alert(xhr.responseText);
+        }
+    }
+</script>
+
+
+</body>
+</html>
