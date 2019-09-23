@@ -2,33 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24cfc65-48e4-45fa-a62c-3dac9b3844e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phones.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txtTst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index1st.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myLib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myLibPool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mySQLcheatSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s03.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form03.html" beforeDir="false" afterPath="$PROJECT_DIR$/form03.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/ws.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jstst.js" beforeDir="false" afterPath="$PROJECT_DIR$/jstst.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,6 +43,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,21 +62,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ex.js">
-    <configuration name="ex.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ex.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.s03.js">
+    <configuration name="mySQLcheatSheet.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mySQLcheatSheet.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="jstst.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jstst.js" working-dir="$PROJECT_DIR$">
+    <configuration name="s01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/s01.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="ws.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/ws.js" working-dir="$PROJECT_DIR$">
+    <configuration name="s02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/s02.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="s03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/s03.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="tstExternal.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tstExternal.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.ex.js" />
-        <item itemvalue="Node.js.jstst.js" />
-        <item itemvalue="Node.js.ws.js" />
+        <item itemvalue="Node.js.s03.js" />
+        <item itemvalue="Node.js.s02.js" />
+        <item itemvalue="Node.js.s01.js" />
+        <item itemvalue="Node.js.tstExternal.js" />
+        <item itemvalue="Node.js.mySQLcheatSheet.js" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +100,7 @@
       <updated>1568571393419</updated>
       <workItem from="1568571397623" duration="7525000" />
       <workItem from="1568624774862" duration="2498000" />
-      <workItem from="1568852578778" duration="46495000" />
+      <workItem from="1568852578778" duration="121556000" />
     </task>
     <servers />
   </component>
